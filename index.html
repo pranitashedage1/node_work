@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Entry</title>
+</head>
+<body>
+
+    <h2>Submit Entry</h2>
+    <form action="/submit-form" method="post">
+        <label for="StudnetName">Student Name</label>
+        <input type="text" name="name" id="StudnetName" placeholder="Enter Student Name" required>
+
+        <label for="Hobby">Hobby</label>
+        <input type="text" name="hobby" id="Hobby" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <a href="/entries">View Submitted Entries</a>
+
+</body>
+</html>
